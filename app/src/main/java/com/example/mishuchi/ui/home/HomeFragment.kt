@@ -8,6 +8,8 @@ import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
 import com.example.mishuchi.databinding.FragmentHomeBinding
+import com.google.firebase.FirebaseApp
+import com.google.firebase.database.FirebaseDatabase
 
 class HomeFragment : Fragment() {
 
@@ -28,7 +30,11 @@ class HomeFragment : Fragment() {
         _binding = FragmentHomeBinding.inflate(inflater, container, false)
         val root: View = binding.root
 
-        val textView: TextView = binding.textHome
+        val textView: TextView = binding.textQuestion
+        val textViewansw1: TextView = binding.textAnsw1
+        val textViewansw2: TextView = binding.textAnsw2
+        val textViewansw3: TextView = binding.textAnsw3
+        val textViewansw4: TextView = binding.textAnsw4
         homeViewModel.text.observe(viewLifecycleOwner) {
             textView.text = it
         }

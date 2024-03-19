@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "467431005795",
+    "project_id": "mi-shu-chi",
+    "storage_bucket": "mi-shu-chi.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:467431005795:android:6014d220e7b7d642a22256",
+        "android_client_info": {
+          "package_name": "com.example.mishuchi"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCscG4_gXJMHemPH5S4xQOskdnqvEgvpGY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
